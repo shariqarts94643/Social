@@ -1,0 +1,218 @@
+﻿/* blog element-twelve */
+
+.blog.element-twelve{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.blog.element-twelve .blog-item{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.blog.element-twelve:not(.owl-carousel) .blog-item{
+	float:left;
+	margin-bottom:30px;
+}
+
+.blog.element-twelve .blog-item > .holder{
+	background-color:#fff;
+	border:1px #e6e6e6 solid;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-twelve .blog-item > .holder:hover{
+}
+
+.blog.element-twelve .blog-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+}
+
+.blog.element-twelve .blog-item > .holder > .pic > img{
+	width:100%;
+}
+
+.blog.element-twelve .blog-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.blog.element-twelve .blog-item > .holder > .data{
+	padding:28px 26px 32px 26px;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .author{
+	position:relative;
+	z-index:1;
+	min-height:47px;
+	margin-bottom:23px;
+	padding-left:65px;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .author > .author-thumbnail{
+	position:absolute;
+	top:0;
+	left:0;
+	width:auto;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .author > .author-thumbnail img{
+	width:47px;
+	border-radius:50%;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .author .name{
+	margin-bottom:5px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:13px;
+	color:#091e42;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-twelve .blog-item > .holder:hover > .data > .author .name{
+	color:#fff;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .author .name a{
+	color:inherit;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .author .date{
+	margin-bottom:0;
+	font-weight:400;
+	font-size:13px;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-twelve .blog-item > .holder:hover > .data > .author .date{
+	color:#fff;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .title{
+	margin-bottom:20px;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .title > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .title h4{
+	margin-bottom:10px;
+	font-weight:600;
+	font-size:18px;
+	color:#091e42;
+	line-height:28px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-twelve .blog-item > .holder:hover > .data > .title h4{
+	color:#fff;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .title h4 a{
+	color:inherit;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .content{
+	margin-bottom:15px;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .content > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .content p{
+	margin-bottom:20px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-twelve .blog-item > .holder:hover > .data > .content p{
+	color:#fff;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .more{
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .more .btn{
+	padding:0;
+	background-color:transparent;
+	border:none;
+	border-radius:0;
+	box-shadow:initial;
+	font-weight:500;
+	font-size:15px;
+	color:#091e42;
+	line-height:23px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-twelve .blog-item > .holder:hover > .data > .more .btn{
+	color:#fff;
+}
+
+.blog.element-twelve .blog-item > .holder > .data > .more .btn i{
+	margin-left:8px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* blog element-one */
+
+	.blog.element-twelve:not(.owl-carousel) .blog-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* blog element-one */
+
+	.blog.element-twelve:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* blog element-one */
+
+	.blog.element-twelve:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}

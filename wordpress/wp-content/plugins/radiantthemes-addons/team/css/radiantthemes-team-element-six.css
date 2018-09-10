@@ -1,0 +1,152 @@
+﻿/* team element-six */
+
+.team.element-six{
+	width:auto;
+}
+
+.team.element-six .team-item{
+}
+
+.team.element-six:not(.owl-carousel) .team-item{
+	float:left;
+}
+
+.team.element-six .team-item > .holder{
+	position:relative;
+	overflow:hidden;
+	text-align:left;
+}
+
+.team.element-six .team-item > .holder > img{
+	width:100%;
+}
+
+.team.element-six .team-item > .holder > .pic{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background:center top no-repeat;
+	background-size:cover;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-six .team-item > .holder:hover > .pic{
+	top:-15px;
+	right:-15px;
+	bottom:-15px;
+}
+
+.team.element-six .team-item > .holder > .data{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	padding:30px;
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-six .team-item > .holder:hover > .data{
+	opacity:0.7;
+	visibility:visible;
+}
+
+.team.element-six .team-item > .holder > .data > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.team.element-six .team-item > .holder > .data > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:bottom;
+}
+
+.team.element-six .team-item > .holder > .data > .table > .table-cell > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.team.element-six .team-item > .holder > .data .title{
+	margin-bottom:3px;
+	font-weight:700;
+	font-size:25px;
+	color:#fff;
+	line-height:33px;
+}
+
+.team.element-six .team-item > .holder > .data .title a{
+	color:inherit;
+}
+
+.team.element-six .team-item > .holder > .data .designation{
+	margin-bottom:15px;
+	font-weight:400;
+	font-size:13px;
+	color:#fff;
+	line-height:25px;
+	font-style:italic;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/* team element-five */
+
+	.team.element-six:not(.owl-carousel) .team-item{
+		width:50% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* team element-five */
+
+	.team.element-six:not(.owl-carousel) .team-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* team element-five */
+
+	.team.element-six:not(.owl-carousel) .team-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* team element-five */
+
+	.team.element-six:not(.owl-carousel) .team-item{
+		width:100% !important;
+	}
+
+}

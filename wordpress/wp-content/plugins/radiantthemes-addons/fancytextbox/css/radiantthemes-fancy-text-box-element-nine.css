@@ -1,0 +1,55 @@
+/* rt-fancy-text-box element-nine */
+
+.rt-fancy-text-box.element-nine{
+}
+
+.rt-fancy-text-box.element-nine > .holder{
+}
+
+.rt-fancy-text-box.element-nine > .holder > .icon{
+	float:left;
+	margin-right:22px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .icon img{
+}
+
+.rt-fancy-text-box.element-nine > .holder > .icon i{
+	font-size:48px;
+	color:#091e42;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .heading{
+	min-height:48px;
+	margin-top:2px;
+	margin-bottom:16px;
+	padding-top:8px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .heading > .title{
+	margin-bottom:7px;
+	font-weight:500;
+	font-size:18px;
+	color:#091e42;
+	line-height:28px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .heading > .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:14px;
+	color:#091e42;
+	line-height:25px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .content{
+}
+
+.rt-fancy-text-box.element-nine > .holder > .content > *:last-child{
+	margin-bottom:0 !important;
+}

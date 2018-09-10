@@ -1,0 +1,89 @@
+/* rt-fancy-text-box element-six */
+
+.rt-fancy-text-box.element-six{
+}
+
+.rt-fancy-text-box.element-six > .holder{
+	position:relative;
+	overflow:hidden;
+	text-align:left;
+	padding:80px 30px 30px 30px;
+	background:center center #fff;
+	background-size:cover;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-six > .holder:hover{
+	z-index:1;
+    box-shadow:0 45px 100px rgba(0,0,0,0.4), 0 16px 40px rgba(0,0,0,0.4);
+    transform:scale(1.06);
+    -webkit-transform:scale(1.06);
+}
+
+.rt-fancy-text-box.element-six > .holder:before{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:0;
+	content:" ";
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-six > .holder:hover:before{
+	opacity:1;
+	visibility:visible;
+}
+
+.rt-fancy-text-box.element-six > .holder > .icon{
+	position:relative;
+	margin-bottom:20px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .icon img{
+}
+
+.rt-fancy-text-box.element-six > .holder > .icon i{
+	font-size:70px;
+	color:#fff;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-six > .holder > .heading{
+	position:relative;
+	margin-bottom:12px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-six > .holder > .heading > .title{
+	margin-bottom:7px;
+	font-weight:500;
+	font-size:22px;
+	color:#fff;
+	line-height:30px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .heading > .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:16px;
+	color:#fff;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .content{
+	position:relative;
+	color:#fff;
+}
+
+.rt-fancy-text-box.element-six > .holder > .content > *:last-child{
+	margin-bottom:0 !important;
+}

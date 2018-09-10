@@ -1,0 +1,53 @@
+﻿/* radiantthemes-accordion element-two */
+
+.radiantthemes-accordion.element-two{
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item{
+	margin-bottom:12px;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item:last-child,
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item:only-child{
+	margin-bottom:0;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title{
+	position:relative;
+	padding:11px 20px 11px 0px;
+	border-top:1px rgba(255,255,255,0.2) solid;
+	border-bottom:1px rgba(255,255,255,0.2) solid;
+	cursor:pointer;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon{
+	position:absolute;
+	top:10px;
+	right:0;
+	z-index:1;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item.radiantthemes-active > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon i{
+	font-size:16px;
+	line-height:16px;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .panel-title{
+	margin:0;
+	font-weight:500;
+	font-size:16px;
+	color:#fff;
+	line-height:26px;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-body{
+	padding-top:12px;
+	color:#fff;
+}

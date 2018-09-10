@@ -1,0 +1,65 @@
+/* rt-fancy-text-box element-seven */
+
+.rt-fancy-text-box.element-seven{
+}
+
+.rt-fancy-text-box.element-seven > .holder{
+	padding:45px 25px 45px 25px;
+	background-color:#fff;
+	border-radius:7px;
+	box-shadow:0px 0px 8px rgba(0,0,0,0.15);
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-fancy-text-box.element-seven > .holder:hover{
+	position:relative;
+	box-shadow:0px 0px 30px rgba(0,0,0,0.2);
+}
+
+.rt-fancy-text-box.element-seven > .holder > .icon{
+	margin-bottom:23px;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .icon img{
+}
+
+.rt-fancy-text-box.element-seven > .holder > .icon i{
+	font-size:70px;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .heading{
+	margin-bottom:15px;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .heading > .title{
+	margin-bottom:7px;
+	font-weight:500;
+	font-size:18px;
+	color:#212d31;
+	line-height:28px;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .heading > .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:17px;
+	color:#010101;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .content{
+}
+
+.rt-fancy-text-box.element-seven > .holder > .content > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-seven > .holder > .content{
+}

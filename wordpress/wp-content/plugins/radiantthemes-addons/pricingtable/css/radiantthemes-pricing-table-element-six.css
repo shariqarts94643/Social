@@ -1,0 +1,134 @@
+﻿/* rt-pricing-table element-six */
+
+.rt-pricing-table.element-six{
+}
+
+.rt-pricing-table.element-six > .holder{
+	position:relative;
+	padding:50px 20px 55px 20px;
+	background-color:#fff;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-six.spotlight > .holder,
+.rt-pricing-table.element-six:hover > .holder{
+	box-shadow:0px 0px 30px rgba(0,0,0,0.1);
+}
+
+.rt-pricing-table.element-six > .holder > .heading{
+	margin-bottom:25px;
+}
+
+.rt-pricing-table.element-six > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-six > .holder > .heading .title{
+	margin-bottom:12px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:20px;
+	color:#212d31;
+	line-height:30px;
+}
+
+.rt-pricing-table.element-six > .holder > .heading .subtitle{
+	max-width:240px;
+	margin:0px auto 10px auto;
+	font-weight:400;
+	font-size:15px;
+	color:#212d31;
+	line-height:26px;
+}
+
+.rt-pricing-table.element-six > .holder > .pricing{
+	margin-bottom:30px;
+}
+
+.rt-pricing-table.element-six > .holder > .pricing > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-six > .holder > .pricing .price{
+	display:inline-block;
+	vertical-align:top;
+	font-weight:500;
+	font-size:60px;
+	line-height:0.75;
+}
+
+.rt-pricing-table.element-six > .holder > .pricing .price strong{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:3px;
+	margin-right:8px;
+	font-weight:400;
+	font-size:24px;
+}
+
+.rt-pricing-table.element-six > .holder > .pricing .period{
+	display:inline-block;
+	vertical-align:bottom;
+	font-weight:400;
+	font-size:20px;
+	color:#030712;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-six > .holder > .pricing .tagline{
+	max-width:220px;
+	margin:0 auto 10px auto;
+	font-weight:400;
+	font-size:14px;
+	color:#0c121f;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-six > .holder > .list{
+	margin-bottom:25px;
+}
+
+.rt-pricing-table.element-six > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-six > .holder > .list ul{
+}
+
+.rt-pricing-table.element-six > .holder > .list ul li{
+	margin-bottom:12px;
+	font-weight:400;
+	font-size:15px;
+	color:#212d31;
+	line-height:26px;
+}
+
+.rt-pricing-table.element-six > .holder > .more{
+}
+
+.rt-pricing-table.element-six > .holder > .more > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-six > .holder > .more .btn{
+	margin-bottom:15px;
+	padding:11px 35px 11px 35px;
+	background-color:transparent;
+	border-width:2px;
+	border-style:solid;
+	border-radius:4px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:15px;
+	line-height:26px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-six.spotlight > .holder > .more .btn,
+.rt-pricing-table.element-six:hover > .holder > .more .btn{
+	color:#fff !important;
+}

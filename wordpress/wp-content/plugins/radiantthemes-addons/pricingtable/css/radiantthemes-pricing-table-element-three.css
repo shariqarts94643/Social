@@ -1,0 +1,155 @@
+﻿/* rt-pricing-table element-three */
+
+.rt-pricing-table.element-three{
+}
+
+.rt-pricing-table.element-three > .holder{
+	background-color:#fff;
+	text-align:center;
+}
+
+.rt-pricing-table.element-three > .holder > .heading{
+	padding:35px 20px 0px 20px;
+	background-color:#f6f6f6;
+	border:1px #efefef solid;
+	border-bottom:none;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three > .holder > .heading .title{
+	margin-bottom:25px;
+	font-weight:400;
+	font-size:22px;
+	color:#222;
+	line-height:30px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .heading .title,
+.rt-pricing-table.element-three:hover > .holder > .heading .title{
+	color:#fff;
+}
+
+.rt-pricing-table.element-three > .holder > .heading .subtitle{
+	margin-bottom:10px;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:13px;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .heading .subtitle,
+.rt-pricing-table.element-three:hover > .holder > .heading .subtitle{
+	color:#fff;
+}
+
+.rt-pricing-table.element-three > .holder > .heading .price{
+	margin-bottom:15px;
+	font-weight:300;
+	font-size:90px;
+	line-height:0.75;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .heading .price,
+.rt-pricing-table.element-three:hover > .holder > .heading .price{
+	color:#fff;
+}
+
+.rt-pricing-table.element-three > .holder > .heading .price strong{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:3px;
+	margin-right:8px;
+	font-weight:400;
+	font-size:24px;
+}
+
+.rt-pricing-table.element-three > .holder > .heading .period{
+	position:relative;
+	bottom:-17px;
+	display:inline-block;
+	vertical-align:top;
+	padding:7px 22px 6px 22px;
+	background-color:#fff;
+	border-radius:30px;
+	box-shadow:0px 0px 32px rgba(0,0,0,0.15);
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:11px;
+	color:#000;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-three > .holder > .list{
+	padding:55px 20px 40px 20px;
+	border:1px #efefef solid;
+	border-top:none;
+}
+
+.rt-pricing-table.element-three > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-three > .holder > .list .tagline{
+	max-width:220px;
+	margin:0px auto 35px auto;
+	font-weight:400;
+	font-size:13px;
+	color:#979797;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul{
+	max-width:200px;
+	margin:0px auto 30px auto;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul li{
+	margin-bottom:15px;
+	padding-bottom:15px;
+	border-bottom:1px #f3f3f3 solid;
+	text-transform:uppercase;
+	font-size:13px;
+	color:#030712;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul li:last-child,
+.rt-pricing-table.element-three > .holder > .list ul li:only-child{
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul li:before{
+	margin-right:12px;
+	content:"\f058";
+	font-family:'FontAwesome';
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three > .holder > .list .btn{
+	padding:12px 35px 12px 35px;
+	background-color:transparent;
+	border-width:1px;
+	border-style:solid;
+	border-radius:35px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:12px;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .list .btn,
+.rt-pricing-table.element-three:hover > .holder > .list .btn{
+	color:#fff !important;
+}

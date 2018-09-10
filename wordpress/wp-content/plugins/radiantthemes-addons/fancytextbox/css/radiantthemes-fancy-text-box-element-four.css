@@ -1,0 +1,62 @@
+/* rt-fancy-text-box element-four */
+
+.rt-fancy-text-box.element-four{
+}
+
+.rt-fancy-text-box.element-four > .holder{
+	padding:30px 20px 45px 20px;
+	background-color:#fff;
+	box-shadow:0px 0px 29px rgba(0,0,0,0.1);
+	text-align:center;
+}
+
+.rt-fancy-text-box.element-four > .holder > .icon{
+	margin-bottom:20px;
+}
+
+.rt-fancy-text-box.element-four > .holder > .icon img{
+}
+
+.rt-fancy-text-box.element-four > .holder > .icon i{
+	font-size:70px;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-four > .holder > .heading{
+	margin-bottom:10px;
+}
+
+.rt-fancy-text-box.element-four > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-four > .holder > .heading > .title{
+	margin-bottom:7px;
+	font-weight:600;
+	font-size:18px;
+	color:#000;
+	line-height:27px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-fancy-text-box.element-four > .holder:hover > .heading > .title{
+}
+
+.rt-fancy-text-box.element-four > .holder > .heading > .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:16px;
+	color:#000;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-four > .holder > .content{
+}
+
+.rt-fancy-text-box.element-four > .holder > .content > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-four > .holder > .content{
+}

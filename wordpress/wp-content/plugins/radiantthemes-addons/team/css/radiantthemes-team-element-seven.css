@@ -1,0 +1,136 @@
+﻿/* team element-seven */
+
+.team.element-seven{
+	width:auto;
+	margin-left:-5px;
+	margin-right:-5px;
+}
+
+.team.element-seven .team-item{
+	padding:20px 5px 20px 5px;
+}
+
+.team.element-seven:not(.owl-carousel) .team-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.team.element-seven .team-item > .holder{
+	text-align:center;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.team.element-seven .team-item > .holder:hover{
+	position:relative;
+	box-shadow:0px 0px 26px rgba(0,0,0,0.1);
+}
+
+.team.element-seven .team-item > .holder > .pic{
+	position:relative;
+}
+
+.team.element-seven .team-item > .holder > .pic > img{
+	width:100%;
+}
+
+.team.element-seven .team-item > .holder > .pic > .pic-background{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-color:#fff;
+}
+
+.team.element-seven .team-item > .holder > .pic > .pic-main{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	background:center top no-repeat;
+}
+
+.team.element-seven .team-item > .holder > .data{
+	padding:22px 15px 25px 15px;
+}
+
+.team.element-seven .team-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.team.element-seven .team-item > .holder > .data .title{
+	margin-bottom:4px;
+	font-weight:300;
+	font-size:17px;
+	color:#343434;
+	line-height:26px;
+}
+
+.team.element-seven .team-item > .holder > .data .title a{
+	color:inherit;
+}
+
+.team.element-seven .team-item > .holder > .data .designation{
+	margin-bottom:7px;
+	font-weight:400;
+	font-size:12px;
+	color:#343434;
+	line-height:25px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/* team element-one */
+
+	.team.element-seven:not(.owl-carousel) .team-item{
+		width:50% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* team element-one */
+
+	.team.element-seven:not(.owl-carousel) .team-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* team element-one */
+
+	.team.element-seven:not(.owl-carousel) .team-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* team element-one */
+
+	.team.element-seven:not(.owl-carousel) .team-item{
+		width:100% !important;
+	}
+
+}

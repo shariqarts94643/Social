@@ -1,0 +1,24 @@
+[03-Jul-2018 12:05:20 UTC] PHP Warning:  include_once(fields/acf-photo_gallery-v5.php): failed to open stream: No such file or directory in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:20 UTC] PHP Warning:  include_once(): Failed opening 'fields/acf-photo_gallery-v5.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:24 UTC] PHP Warning:  include_once(fields/acf-photo_gallery-v5.php): failed to open stream: No such file or directory in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:24 UTC] PHP Warning:  include_once(): Failed opening 'fields/acf-photo_gallery-v5.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:24 UTC] PHP Warning:  include_once(fields/acf-photo_gallery-v5.php): failed to open stream: No such file or directory in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:24 UTC] PHP Warning:  include_once(): Failed opening 'fields/acf-photo_gallery-v5.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:26 UTC] PHP Warning:  include_once(fields/acf-photo_gallery-v5.php): failed to open stream: No such file or directory in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:26 UTC] PHP Warning:  include_once(): Failed opening 'fields/acf-photo_gallery-v5.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:36 UTC] PHP Warning:  include_once(fields/acf-photo_gallery-v5.php): failed to open stream: No such file or directory in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:36 UTC] PHP Warning:  include_once(): Failed opening 'fields/acf-photo_gallery-v5.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:38 UTC] PHP Warning:  include_once(fields/acf-photo_gallery-v5.php): failed to open stream: No such file or directory in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85
+[03-Jul-2018 12:05:38 UTC] PHP Warning:  include_once(): Failed opening 'fields/acf-photo_gallery-v5.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/brandwi2/2018.brandwillagency.com/wp-content/plugins/navz-photo-gallery/navz-photo-gallery.php on line 85

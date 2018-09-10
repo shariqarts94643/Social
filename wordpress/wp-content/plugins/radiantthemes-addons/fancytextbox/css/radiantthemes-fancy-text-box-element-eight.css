@@ -1,0 +1,86 @@
+/* rt-fancy-text-box element-eight */
+
+.rt-fancy-text-box.element-eight{
+}
+
+.rt-fancy-text-box.element-eight > .holder{
+	padding:20px 20px 20px 20px;
+	background-color:#fff;
+	box-shadow:0px 0px 38px rgba(0,0,0,0.1);
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .icon{
+	float:left;
+	margin-right:20px;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .icon img{
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-fancy-text-box.element-one > .holder:hover > .icon img{
+	filter:contrast(1000%) invert(100%);
+}
+
+.rt-fancy-text-box.element-eight > .holder > .icon i{
+	font-size:36px;
+	line-height:1;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder:hover > .icon i{
+	color:#fff;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .heading{
+	min-height:32px;
+	margin-top:4px;
+	margin-bottom:10px;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .heading > .title{
+	margin-bottom:7px;
+	font-weight:500;
+	font-size:18px;
+	line-height:28px;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder:hover > .heading > .title{
+	color:#fff !important;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .heading > .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:14px;
+	line-height:25px;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder:hover > .heading > .subtitle{
+	color:#fff !important;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .content{
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder:hover > .content{
+	color:#fff;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .content > *:last-child{
+	margin-bottom:0 !important;
+}

@@ -1,0 +1,146 @@
+﻿/* rt-pricing-table element-five */
+
+.rt-pricing-table.element-five{
+}
+
+.rt-pricing-table.element-five > .holder{
+	padding:50px 20px 60px 20px;
+	text-align:center;
+}
+
+.rt-pricing-table.element-five.spotlight > .holder{
+	background-color:rgba(0,0,0,0.2);
+}
+
+.rt-pricing-table.element-five > .holder > .icon{
+	margin-bottom:30px;
+}
+
+.rt-pricing-table.element-five > .holder > .icon img{
+}
+
+.rt-pricing-table.element-five > .holder > .heading{
+	margin-bottom:30px;
+	padding-bottom:22px;
+	border-bottom:1px rgba(255,255,255,0.15) solid;
+}
+
+.rt-pricing-table.element-five > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-five > .holder > .heading .title{
+	margin-bottom:12px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:20px;
+	color:#fff;
+	line-height:28px;
+}
+
+.rt-pricing-table.element-five > .holder > .heading .subtitle{
+	max-width:235px;
+	margin:0 auto 15px auto;
+	font-weight:400;
+	font-size:15px;
+	color:#fff;
+	line-height:26px;
+}
+
+.rt-pricing-table.element-five > .holder > .pricing{
+	margin-bottom:25px;
+	padding-bottom:28px;
+	border-bottom:1px rgba(255,255,255,0.15) solid;
+}
+
+.rt-pricing-table.element-five > .holder > .pricing > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-five > .holder > .pricing .price{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:55px;
+	color:#fff;
+	line-height:1;
+}
+
+.rt-pricing-table.element-five > .holder > .pricing .price sup{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:5px;
+	margin-top:19px;
+	font-weight:400;
+	font-size:30px;
+	line-height:1;
+}
+
+.rt-pricing-table.element-five > .holder > .pricing .price sub{
+	display:inline-block;
+	vertical-align:bottom;
+	margin-bottom:14px;
+	font-weight:400;
+	font-size:30px;
+	line-height:1;
+}
+
+.rt-pricing-table.element-five > .holder > .pricing .tagline{
+	max-width:235px;
+	margin:0 auto 15px auto;
+	font-weight:400;
+	font-size:15px;
+	color:#fff;
+	line-height:26px;
+}
+
+.rt-pricing-table.element-five > .holder > .list{
+	margin-bottom:30px;
+}
+
+.rt-pricing-table.element-five > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-five > .holder > .list ul{
+}
+
+.rt-pricing-table.element-five > .holder > .list ul li{
+	margin-bottom:18px;
+	font-size:15px;
+	color:#fff;
+	line-height:26px;
+}
+
+.rt-pricing-table.element-five > .holder > .list ul li:last-child,
+.rt-pricing-table.element-five > .holder > .list ul li:only-child{
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-pricing-table.element-five > .holder > .more{
+}
+
+.rt-pricing-table.element-five > .holder > .more > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-five > .holder > .more .btn{
+	margin-bottom:15px;
+	padding:11px 35px 11px 35px;
+	background-color:transparent;
+	border-width:2px;
+	border-style:solid;
+	border-radius:4px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:15px;
+	line-height:26px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-five.spotlight > .holder > .more .btn,
+.rt-pricing-table.element-five:hover > .holder > .more .btn{
+	color:#fff !important;
+}
